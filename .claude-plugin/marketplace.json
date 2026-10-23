@@ -1,0 +1,13 @@
+{
+  "name": "devflow",
+  "owner": { "name": "Oleksandr Bartoshko", "url": "https://github.com/oleksandrtargaryen" },
+  "description": "devflow: a ticket-to-PR cycle for Claude Code that stops after every stage and learns from its own misses.",
+  "allowCrossMarketplaceDependenciesOn": ["mattpocock"],
+  "plugins": [
+    {
+      "name": "devflow",
+      "source": "./plugins/devflow",
+      "description": "Ticket-to-PR cycle with a stop after every stage: design, plan, TDD slices, verify with runtime acceptance, review, ship, retro; investigations; learns from its own misses."
+    }
+  ]
+}

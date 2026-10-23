@@ -1,0 +1,13 @@
+{
+  "name": "devflow",
+  "version": "0.3.2",
+  "description": "Ticket-to-PR cycle with a stop after every stage, runtime acceptance, investigations, and a ledger of its own misses that turns recurring ones into rules. Orchestrates Matt Pocock's skills, keeps task state outside the repo, puts ADRs where the team keeps them, guards git.",
+  "author": { "name": "Oleksandr Bartoshko", "url": "https://github.com/oleksandrtargaryen" },
+  "homepage": "https://github.com/oleksandrtargaryen/devflow",
+  "repository": "https://github.com/oleksandrtargaryen/devflow",
+  "license": "Apache-2.0",
+  "keywords": ["workflow", "tdd", "code-review", "adr", "planning", "learning"],
+  "dependencies": [
+    { "name": "mattpocock-skills", "marketplace": "mattpocock" }
+  ]
+}
